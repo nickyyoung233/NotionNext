@@ -22,7 +22,9 @@ const BLOG = {
   BIO:
     process.env.NEXT_PUBLIC_BIO ||
     '泛滥好奇心，太多求知欲；既追求艺术创作的感性，也秉持有条不紊的逻辑感', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || '', // 网站地址
+  LINK:
+    process.env.NEXT_PUBLIC_LINK ||
+    'https://notion-next-turbocake-portfolio.vercel.app/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, portfolio', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL:
